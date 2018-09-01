@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64FD5F8824A0589AE2069AF5 /* Pods_Hopeli_Food.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699EE80251805BAE4B52197 /* Pods_Hopeli_Food.framework */; };
 		C61316A92139F9A000E0B8B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61316A82139F9A000E0B8B9 /* AppDelegate.swift */; };
 		C61316AB2139F9A000E0B8B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61316AA2139F9A000E0B8B9 /* ViewController.swift */; };
 		C61316AE2139F9A000E0B8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61316AC2139F9A000E0B8B9 /* Main.storyboard */; };
 		C61316B02139F9A100E0B8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61316AF2139F9A100E0B8B9 /* Assets.xcassets */; };
 		C61316B32139F9A100E0B8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61316B12139F9A100E0B8B9 /* LaunchScreen.storyboard */; };
+		C6DC05FF2139FBB400FDDCAE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC05FE2139FBB400FDDCAE /* User.swift */; };
+		C6DC0601213A059400FDDCAE /* DishesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0600213A059400FDDCAE /* DishesTableViewController.swift */; };
+		C6DC0604213A060800FDDCAE /* Dishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0603213A060800FDDCAE /* Dishes.swift */; };
+		C6DC0608213AFF2000FDDCAE /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0606213AFF2000FDDCAE /* UserTableViewCell.swift */; };
+		C6DC060B213B1C8E00FDDCAE /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC060A213B1C8E00FDDCAE /* UserDetailViewController.swift */; };
+		C6DC060D213B321300FDDCAE /* DishesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC060C213B321300FDDCAE /* DishesDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0699EE80251805BAE4B52197 /* Pods_Hopeli_Food.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hopeli_Food.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7566E1F9ED7B468D4AE5627B /* Pods-Hopeli Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hopeli Food.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hopeli Food/Pods-Hopeli Food.debug.xcconfig"; sourceTree = "<group>"; };
+		A1851BFF842341DE4C0245D1 /* Pods-Hopeli Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hopeli Food.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hopeli Food/Pods-Hopeli Food.release.xcconfig"; sourceTree = "<group>"; };
 		C61316A52139F9A000E0B8B9 /* Hopeli Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hopeli Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61316A82139F9A000E0B8B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C61316AA2139F9A000E0B8B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		C61316AF2139F9A100E0B8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C61316B22139F9A100E0B8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C61316B42139F9A100E0B8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6DC05FE2139FBB400FDDCAE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C6DC0600213A059400FDDCAE /* DishesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesTableViewController.swift; sourceTree = "<group>"; };
+		C6DC0603213A060800FDDCAE /* Dishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dishes.swift; sourceTree = "<group>"; };
+		C6DC0606213AFF2000FDDCAE /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		C6DC060A213B1C8E00FDDCAE /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		C6DC060C213B321300FDDCAE /* DishesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64FD5F8824A0589AE2069AF5 /* Pods_Hopeli_Food.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				C61316A72139F9A000E0B8B9 /* Hopeli Food */,
 				C61316A62139F9A000E0B8B9 /* Products */,
+				ED482B20460E2EAC2F5F3A09 /* Pods */,
+				DCE0D8F53B57BFEA38B90B77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,52 @@
 			isa = PBXGroup;
 			children = (
 				C61316A82139F9A000E0B8B9 /* AppDelegate.swift */,
-				C61316AA2139F9A000E0B8B9 /* ViewController.swift */,
+				C6DC0605213A060F00FDDCAE /* Model */,
+				C6DC0602213A059E00FDDCAE /* Controller */,
 				C61316AC2139F9A000E0B8B9 /* Main.storyboard */,
 				C61316AF2139F9A100E0B8B9 /* Assets.xcassets */,
 				C61316B12139F9A100E0B8B9 /* LaunchScreen.storyboard */,
 				C61316B42139F9A100E0B8B9 /* Info.plist */,
 			);
 			path = "Hopeli Food";
+			sourceTree = "<group>";
+		};
+		C6DC0602213A059E00FDDCAE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C61316AA2139F9A000E0B8B9 /* ViewController.swift */,
+				C6DC0606213AFF2000FDDCAE /* UserTableViewCell.swift */,
+				C6DC060A213B1C8E00FDDCAE /* UserDetailViewController.swift */,
+				C6DC0600213A059400FDDCAE /* DishesTableViewController.swift */,
+				C6DC060C213B321300FDDCAE /* DishesDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6DC0605213A060F00FDDCAE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6DC05FE2139FBB400FDDCAE /* User.swift */,
+				C6DC0603213A060800FDDCAE /* Dishes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DCE0D8F53B57BFEA38B90B77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0699EE80251805BAE4B52197 /* Pods_Hopeli_Food.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED482B20460E2EAC2F5F3A09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7566E1F9ED7B468D4AE5627B /* Pods-Hopeli Food.debug.xcconfig */,
+				A1851BFF842341DE4C0245D1 /* Pods-Hopeli Food.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C61316B72139F9A100E0B8B9 /* Build configuration list for PBXNativeTarget "Hopeli Food" */;
 			buildPhases = (
+				664034F83E24B9B704BD880C /* [CP] Check Pods Manifest.lock */,
 				C61316A12139F9A000E0B8B9 /* Sources */,
 				C61316A22139F9A000E0B8B9 /* Frameworks */,
 				C61316A32139F9A000E0B8B9 /* Resources */,
+				B9BDB089F17A8874AB2B7EFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +190,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		664034F83E24B9B704BD880C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hopeli Food-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BDB089F17A8874AB2B7EFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hopeli Food/Pods-Hopeli Food-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hopeli Food/Pods-Hopeli Food-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C61316A12139F9A000E0B8B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6DC060B213B1C8E00FDDCAE /* UserDetailViewController.swift in Sources */,
 				C61316AB2139F9A000E0B8B9 /* ViewController.swift in Sources */,
+				C6DC060D213B321300FDDCAE /* DishesDetailViewController.swift in Sources */,
+				C6DC0604213A060800FDDCAE /* Dishes.swift in Sources */,
+				C6DC0601213A059400FDDCAE /* DishesTableViewController.swift in Sources */,
 				C61316A92139F9A000E0B8B9 /* AppDelegate.swift in Sources */,
+				C6DC0608213AFF2000FDDCAE /* UserTableViewCell.swift in Sources */,
+				C6DC05FF2139FBB400FDDCAE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +385,7 @@
 		};
 		C61316B82139F9A100E0B8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7566E1F9ED7B468D4AE5627B /* Pods-Hopeli Food.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +404,7 @@
 		};
 		C61316B92139F9A100E0B8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1851BFF842341DE4C0245D1 /* Pods-Hopeli Food.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
