@@ -19,11 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         print(Realm.Configuration.defaultConfiguration.fileURL!)
         
-        do {
-            let realm =  try Realm()
-        } catch {
-            print(error)
-        }
+//        do {
+//            let realm =  try Realm()
+//        } catch {
+//            print(error)
+//        }
         
         
         return true

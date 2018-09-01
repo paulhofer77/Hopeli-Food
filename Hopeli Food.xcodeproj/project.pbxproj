@@ -9,16 +9,15 @@
 /* Begin PBXBuildFile section */
 		64FD5F8824A0589AE2069AF5 /* Pods_Hopeli_Food.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0699EE80251805BAE4B52197 /* Pods_Hopeli_Food.framework */; };
 		C61316A92139F9A000E0B8B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61316A82139F9A000E0B8B9 /* AppDelegate.swift */; };
-		C61316AB2139F9A000E0B8B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61316AA2139F9A000E0B8B9 /* ViewController.swift */; };
 		C61316AE2139F9A000E0B8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61316AC2139F9A000E0B8B9 /* Main.storyboard */; };
 		C61316B02139F9A100E0B8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61316AF2139F9A100E0B8B9 /* Assets.xcassets */; };
 		C61316B32139F9A100E0B8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61316B12139F9A100E0B8B9 /* LaunchScreen.storyboard */; };
+		C657D473213B381F007F102D /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657D472213B381F007F102D /* SwipeTableViewController.swift */; };
+		C657D475213B3DAA007F102D /* StartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657D474213B3DAA007F102D /* StartTableViewController.swift */; };
+		C657D477213B4394007F102D /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657D476213B4394007F102D /* UserTableViewController.swift */; };
 		C6DC05FF2139FBB400FDDCAE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC05FE2139FBB400FDDCAE /* User.swift */; };
 		C6DC0601213A059400FDDCAE /* DishesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0600213A059400FDDCAE /* DishesTableViewController.swift */; };
 		C6DC0604213A060800FDDCAE /* Dishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0603213A060800FDDCAE /* Dishes.swift */; };
-		C6DC0608213AFF2000FDDCAE /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC0606213AFF2000FDDCAE /* UserTableViewCell.swift */; };
-		C6DC060B213B1C8E00FDDCAE /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC060A213B1C8E00FDDCAE /* UserDetailViewController.swift */; };
-		C6DC060D213B321300FDDCAE /* DishesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DC060C213B321300FDDCAE /* DishesDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,17 +26,16 @@
 		A1851BFF842341DE4C0245D1 /* Pods-Hopeli Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hopeli Food.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hopeli Food/Pods-Hopeli Food.release.xcconfig"; sourceTree = "<group>"; };
 		C61316A52139F9A000E0B8B9 /* Hopeli Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hopeli Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61316A82139F9A000E0B8B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C61316AA2139F9A000E0B8B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C61316AD2139F9A000E0B8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C61316AF2139F9A100E0B8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C61316B22139F9A100E0B8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C61316B42139F9A100E0B8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C657D472213B381F007F102D /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		C657D474213B3DAA007F102D /* StartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTableViewController.swift; sourceTree = "<group>"; };
+		C657D476213B4394007F102D /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		C6DC05FE2139FBB400FDDCAE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C6DC0600213A059400FDDCAE /* DishesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesTableViewController.swift; sourceTree = "<group>"; };
 		C6DC0603213A060800FDDCAE /* Dishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dishes.swift; sourceTree = "<group>"; };
-		C6DC0606213AFF2000FDDCAE /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
-		C6DC060A213B1C8E00FDDCAE /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
-		C6DC060C213B321300FDDCAE /* DishesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +85,10 @@
 		C6DC0602213A059E00FDDCAE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C61316AA2139F9A000E0B8B9 /* ViewController.swift */,
-				C6DC0606213AFF2000FDDCAE /* UserTableViewCell.swift */,
-				C6DC060A213B1C8E00FDDCAE /* UserDetailViewController.swift */,
+				C657D472213B381F007F102D /* SwipeTableViewController.swift */,
+				C657D474213B3DAA007F102D /* StartTableViewController.swift */,
+				C657D476213B4394007F102D /* UserTableViewController.swift */,
 				C6DC0600213A059400FDDCAE /* DishesTableViewController.swift */,
-				C6DC060C213B321300FDDCAE /* DishesDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -218,11 +215,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Hopeli Food/Pods-Hopeli Food-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -236,13 +235,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6DC060B213B1C8E00FDDCAE /* UserDetailViewController.swift in Sources */,
-				C61316AB2139F9A000E0B8B9 /* ViewController.swift in Sources */,
-				C6DC060D213B321300FDDCAE /* DishesDetailViewController.swift in Sources */,
+				C657D477213B4394007F102D /* UserTableViewController.swift in Sources */,
+				C657D475213B3DAA007F102D /* StartTableViewController.swift in Sources */,
 				C6DC0604213A060800FDDCAE /* Dishes.swift in Sources */,
+				C657D473213B381F007F102D /* SwipeTableViewController.swift in Sources */,
 				C6DC0601213A059400FDDCAE /* DishesTableViewController.swift in Sources */,
 				C61316A92139F9A000E0B8B9 /* AppDelegate.swift in Sources */,
-				C6DC0608213AFF2000FDDCAE /* UserTableViewCell.swift in Sources */,
 				C6DC05FF2139FBB400FDDCAE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

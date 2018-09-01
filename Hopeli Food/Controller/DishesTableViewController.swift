@@ -9,7 +9,7 @@
 import UIKit
 import RealmSwift
 
-class DishesTableViewController: UITableViewController {
+class DishesTableViewController: SwipeTableViewController {
 
     let realm = try! Realm()
     var dishes: Results<Dishes>?
@@ -33,7 +33,7 @@ class DishesTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "dishesCell", for: indexPath)
+        let cell = super.tableView(tableView, cellForRowAt: indexPath)
         cell.textLabel?.text = dishes?[indexPath.row].dishName ?? "Add your First Dish"
         
         return cell
